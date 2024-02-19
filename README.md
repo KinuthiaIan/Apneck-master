@@ -63,15 +63,7 @@ You can find the React documentation on the website.
 
 Check out the Getting Started page for a quick overview.
 
-The documentation is divided into several sections:
-
-Tutorial
-Main Concepts
-Advanced Guides
-API Reference
-Where to Get Support
-Contributing Guide
-You can improve it by sending pull requests to this repository.
+The documentation is divided into several section
 
 Examples
 We have several examples on the website. Here is the first one to get you started:
@@ -83,8 +75,8 @@ function HelloMessage({ name }) {
 }
 
 const root = createRoot(document.getElementById('container'));
-root.render(<HelloMessage name="Taylor" />);
-This example will render "Hello Taylor" into a container on the page.
+root.render(<HelloMessage name="Ian" />);
+This example will render "Hello Ian" into a container on the page.
 
 You'll notice that we used an HTML-like syntax; we call it JSX. JSX is not required to use React, but it makes code more readable, and writing it feels like writing HTML. If you're using React as a <script> tag, read this section on integrating JSX; otherwise, the recommended JavaScript toolchains handle it automatically.
 
@@ -97,7 +89,7 @@ Facebook has adopted a Code of Conduct that we expect project participants to ad
 Contributing Guide
 Read our contributing guide to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to React.
 
-Deployment-url = https://a-pneck-4cvbvszed-eclarkhalid.vercel.app
+Deployment-url = http://localhost:5173/
 
 Good First Issues
 To help you get your feet wet and get you familiar with our contribution process, we have a list of good first issues that contain bugs that have a relatively limited scope. This is a great place to get started.
